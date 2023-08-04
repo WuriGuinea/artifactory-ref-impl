@@ -4,7 +4,8 @@
     "hi": "हिंदी",
     "ar": "عربى",
     "kn": "ಕನ್ನಡ",
-    "ta": "தமிழ்"
+    "ta": "தமிழ்",
+    "fr": "Français"
   },
   "rtlLanguages": ["ar"],
   "langCodeMapping": {
@@ -12,6 +13,7 @@
     "hin": "hi",
     "ara": "ar",
     "kan": "kn",
-    "tam": "ta"
+    "tam": "ta",
+    "fra": "fr"
   }
 }
