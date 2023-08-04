@@ -335,6 +335,6 @@
     "IDA-RST-008": "Délai de connexion dépassé",
     "IDA-KBT-001": "Certificat lié non trouvé",
     "IDA-KBT-002": "Le jeton signé émis à (iat) n'est pas dans la plage de temps autorisée.",
-    "IDA-KBT-003": "Erreur de vérification du jeton lié à la clé."
+    "IDA-KBT-003": "Erreur lors de la vérification du jeton lié à la clé."
   }
 }
