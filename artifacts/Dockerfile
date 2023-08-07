@@ -86,7 +86,7 @@ ENV clamav_path=${base_path}/libs-release-local/clamav
 ENV regclient_jar_path=${base_path}/libs-release-local
 
 # environment variable for custom-impl jar path
-ENV custom_zip_path=${base_path}/libs-release-local/impl
+#ENV custom_zip_path=${base_path}/libs-release-local/impl
 
 # environment variable for child auth filter jar path
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
@@ -188,7 +188,7 @@ COPY /src/master-templates/* ${work_dir}/master-templates/
 
 #COPY /src/sdk/tech5/* ${tech5_zip_path}/
 
-COPY /src/impl/* ${custom_zip_path}/
+#COPY /src/impl/* ${custom_zip_path}/
 
 RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources  && \
 zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
