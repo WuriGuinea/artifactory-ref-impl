@@ -99,6 +99,13 @@ ENV scripts_path=/home/mosip/scripts
 ENV version=1.2.1-SNAPSHOT
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
 
+# environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
+ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/1.2.0.1-B2/kernel-auth-adapter-1.2.0.1-B2.jar
+
+# environment variable for IdP authentication wrapper jar URL
+#ENV auth_wrapper_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/idp/authentication-wrapper/${sidp_auth_wrapper_version}/authentication-wrapper-0.9.0-20230103.073852-1.jar
+ENV auth_wrapper_url_env=https://repo1.maven.org/maven2/io/mosip/idp/authentication-wrapper/0.9.0/authentication-wrapper-0.9.0.jar
+
 # Create all the jar paths.
 RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper
 
@@ -161,6 +168,14 @@ COPY /src/icu4j/* ${icu4j_jar_path}/
 COPY /src/auth/* ${regproc_jar_path}/
 
 COPY ./configure.sh ${work_dir}/
+
+RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
+
+echo "Downloaded auth adapter jar" &&\
+
+wget ${auth_wrapper_url_env} -O ${idp_auth_wrapper_jar_path}/authentication-wrapper.jar &&\
+
+echo "Downloaded IDP auth wrapper jar" &&\
 
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
 
