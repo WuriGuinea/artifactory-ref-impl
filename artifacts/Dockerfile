@@ -78,7 +78,7 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 ENV idp_auth_wrapper_jar_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
 
 # environment variable for tech5 jar path
-ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
+#ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
 
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
@@ -186,7 +186,7 @@ COPY /src/i18n/mock-relying-party-i18n-bundle/*  ${work_dir}/mock-relying-party-
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
 
-COPY /src/sdk/tech5/* ${tech5_zip_path}/
+#COPY /src/sdk/tech5/* ${tech5_zip_path}/
 
 COPY /src/impl/* ${custom_zip_path}/
 
