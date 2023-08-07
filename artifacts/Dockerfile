@@ -169,14 +169,6 @@ COPY /src/auth/* ${regproc_jar_path}/
 
 COPY ./configure.sh ${work_dir}/
 
-RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
-
-echo "Downloaded auth adapter jar" &&\
-
-wget ${auth_wrapper_url_env} -O ${idp_auth_wrapper_jar_path}/authentication-wrapper.jar &&\
-
-echo "Downloaded IDP auth wrapper jar" &&\
-
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
 
 # select container user for all tasks
