@@ -91,6 +91,9 @@ ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
 # environment variable for esignet wrappers zip path
 ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
 
+# environment variable for esignet wrappers zip path
+ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
+
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
