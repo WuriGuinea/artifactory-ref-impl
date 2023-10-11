@@ -97,7 +97,7 @@ ENV clamav_path=${base_path}/libs-release-local/clamav
 ENV regclient_jar_path=${base_path}/libs-release-local
 
 # environment variable for custom-impl jar path
-#ENV custom_zip_path=${base_path}/libs-release-local/impl
+ENV custom_zip_path=${base_path}/libs-release-local/impl
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
@@ -152,7 +152,7 @@ COPY /src/i18n/esignet-i18n-bundle/*  ${work_dir}/esignet-i18n-bundle/
 
 COPY /src/sdk/tech5/* ${tech5_zip_path}/
 
-#COPY /src/impl/* ${custom_zip_path}/
+COPY /src/impl/* ${custom_zip_path}/
 
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
