@@ -358,20 +358,17 @@
     }
   },
   "documents": {
-    "title_document": "Télécharger des documents",
-    "text_filetype": "Type de fichier autorisé ",
-    "text_filesize": "et taille de fichier autorisée",
-    "action_browse": "FEUILLETER",
-    "action_back": "RETOUR",
-    "action_skip": "SAUTER",
-    "action_continue": "CONTINUER",
-    "label_sameas": "Pareil que",
-    "text_or": "OU",
-    "action_view": "VUE",
-    "OR": "ou",
-    "text_docrefid": "ID de référence du document",
-    "sameAs": "Pareil que",
-    "sameAsNone": "Rien"
+"title_document": "Justificatifs",
+"text_filetype": "Formats de fichiers autorisés ",
+"text_filesize": "et taille maximale autorisée",
+"action_browse": "Parcourir",
+"action_back": "Précédent",
+"action_skip": "Réserver plus tard",
+"action_continue": "Suivant",
+"label_sameas": "Pareil que",
+"text_or": "OU",
+"action_view": "Aperçu",
+"OR": "ou"
   },
   "acknowledgement": {
     "title": "Rendez-vous confirmé",
@@ -512,7 +509,7 @@
     }
   },
   "timeSelection": {
-    "title_book": "Rendez-vous du livre",
+    "title_book": "Prise de Rendez-vous",
     "text_prev": "précédent",
     "text_next": "Suivant",
     "text_morning": "Matin",
