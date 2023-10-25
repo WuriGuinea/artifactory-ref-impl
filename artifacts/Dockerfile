@@ -164,6 +164,8 @@ COPY ./configure.sh ${work_dir}/
 
 COPY pom.xml ${work_dir}/
 
+COPY /src/sms/* ${kernel_jar_path}/
+
 RUN cd ${work_dir} && mvn dependency:resolve && mvn clean install
 
 RUN bash configure.sh
