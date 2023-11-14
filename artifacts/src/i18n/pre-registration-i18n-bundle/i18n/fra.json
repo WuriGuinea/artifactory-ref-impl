@@ -79,7 +79,7 @@
     "CenterSelection": {
       "name": "Choisissez un centre d'inscription",
       "list": {
-        "line1": "Sur la page Rendez-vous du livre, vous pouvez trouver un centre d’inscription via les trois options suivantes:",
+        "line1": "Sur la page Rendez-vous, vous pouvez trouver un centre d’inscription via les trois options suivantes:",
         "line1_note": "Remarque: les centres d'inscription recommandés sont automatiquement affichés en fonction de vos détails démographiques (code postal).",
         "subList": {
           "line1": "Cliquez sur Centres proches pour afficher les centres d'enregistrement en fonction de votre situation géographique.",
@@ -578,7 +578,7 @@
     "navigation_alert": "Êtes-vous sûr de vouloir quitter le site car les données saisies ne seront pas enregistrées. Veuillez confirmer"
   },
   "centerSelection": {
-    "title": " Rendez-vous du livre ",
+    "title": " Rendez-vous ",
     "action_nearBy": "Proche",
     "display_recommended": "Centres recommandés",
     "text_found": "A trouvé",
