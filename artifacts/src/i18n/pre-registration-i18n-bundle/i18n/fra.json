@@ -299,7 +299,7 @@
   "stepper": {
     "link_demographic": "Détails démographiques",
     "link_upload_doc": "Télécharger un document",
-    "link_book": "Rendez-vous du livre",
+    "link_book": "Rendez-vous",
     "link_confirm": "Confirmation"
   },
   "demographic": {
@@ -545,7 +545,7 @@
     }
   },
   "appointmentCentreSearch": {
-    "title": "Rendez-vous du livre",
+    "title": "Rendez-vous",
     "text_recommended_centres": "Centres recommandés",
     "text_finding_result": "trouver le résultat pour",
     "text_nearBy": "Proche",
