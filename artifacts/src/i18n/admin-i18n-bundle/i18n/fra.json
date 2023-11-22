@@ -8,8 +8,8 @@
 			"subItem1": "Centre",
 			"subItem2": "Dispositifs",
 			"subItem3": "Machines",
-			"subItem4": "Mappage de la zone utilisateur",
-			"subItem5": "Mappage du centre d'utilisateurs"
+			"subItem4": "Mappage zone <-> utilisateur",
+			"subItem5": "Mappage centre  <-> utilisateur"
 		},
 		"item3": {
 			"title": "Données de base"
@@ -18,7 +18,7 @@
 			"title": "État du paquet"
 		},
 		"item5": {
-			"title": "Mettre en pause / reprendre le RID"
+			"title": "Mettre en pause / Reprendre le RID"
 		},
 		"item6": {
 			"title": "Transfert groupé",
@@ -35,7 +35,7 @@
 		}
 	},
 	"dashboard": {
-		"welcomeMessage": "Bienvenue sur le portail d'administration Mosip!"
+		"welcomeMessage": "Bienvenue sur le portail d'administration MOSIP!"
 	},
 	"center": {
 		"title": "Centres",
@@ -43,7 +43,7 @@
 		"center-name": "Nom du centre",
 		"center-id": "Identifiant du centre",
 		"status": "Statut",
-		"created-on": "Créé sur",
+		"created-on": "Créé le",
 		"created-by": "Créé par",
 		"updated-on": "Mis à jour le",
 		"updated-by": "Mis à jour par",
@@ -77,14 +77,14 @@
 		"create": "Créer",
 		"cancel": "Annuler",
 		"language": "French",
-		"keyboard-tooltip": "Cliquez pour clavier virtuel (French)",
-		"isActive": "C'est actif",
-		"update": "mettre à jour",
-		"workingDays": "jours de travail",
-		"holidays": "Vacances exceptionnelles",
+		"keyboard-tooltip": "clavier virtuel Info bull",
+		"isActive": "Actif",
+		"update": "Mettre à jour",
+		"workingDays": "Jours de travail",
+		"holidays": "Jours fériés",
 		"add-button": "Ajouter",
 		"datepicker-placeholder": "Choisissez une date",
-		"devices-tooltip": "L'appareil comprend un scanner d'empreintes digitales, un scanner d'iris, une caméra Web, une imprimante",
+		"devices-tooltip": "L'appareil comprend un scanner d'empreintes digitales, un scanner d'iris, une caméra, une imprimante",
 		"selectLanguage": "Choisir la langue",
 		"editCommonDetails": "Veuillez modifier les autres détails du centre ici",
 		"validationMessages": {
@@ -104,14 +104,14 @@
 			"longitude": {
 				"required": "La longitude est obligatoire",
 				"max-length": "Longueur maxi dépassée (32)",
-				"validLatLong": "Au moins 4 chiffres après la décimale est obligatoire",
-				"validNumber": "S'il vous plaît entrer uniquement des chiffres"
+				"validLatLong": "Après la décimale, il faut au moins 4 chiffres",
+				"validNumber": "S'il vous plaît entrez uniquement des chiffres"
 			},
 			"latitude": {
 				"required": "La longitude est obligatoire",
 				"max-length": "Longueur maxi dépassée (32)",
 				"validLatLong": "Au moins 4 chiffres après la décimale est obligatoire",
-				"validNumber": "S'il vous plaît entrer uniquement des chiffres"
+				"validNumber": "SVP, entrer uniquement des chiffres"
 			},
 			"addressLine1": {
 				"required": "La ligne d'adresse 1 est obligatoire",
@@ -206,18 +206,18 @@
 			"navigation-popup": {
 				"title": "Confirmation",
 				"message": "Êtes-vous sûr de vouloir quitter cette page? Toutes les données non sauvegardées seront perdues.",
-				"yesBtnTxt": "Laisser",
+				"yesBtnTxt": "Quitter",
 				"noBtnTxt": "Rester"
 			},
 			"noData": {
 				"title": "Erreur",
 				"message": "Aucun Enregistrement Trouvé",
-				"btnTxt": "D'accord"
+				"btnTxt": "OK"
 			},
 			"lunchTimeValidation": {
 				"title": "Erreur",
 				"message": "Veuillez sélectionner les horaires du centre avant de choisir les horaires du déjeuner",
-				"btnTxt": "D'accord"
+				"btnTxt": "OK"
 			}
 		}
 	},
@@ -237,7 +237,7 @@
 		"macAddress": "MAC Adresse",
 		"ipAddress": "IP Adresse",
 		"validity": "Date valide heure",
-		"isActive": "C'est actif",
+		"isActive": "Actif",
 		"zone": "Zone",
 		"deviceSpecId": "Nom de la spécification de l'appareil",
 		"language": "français",
@@ -245,7 +245,7 @@
 		"create": "Créer",
 		"cancel": "Annuler",
 		"status": "Statut",
-		"keyboard-tooltip": "Cliquez pour le clavier virtuel (français)",
+		"keyboard-tooltip": "Clavier virtuel info bull",
 		"errorMessages": {
 			"title": "Erreur",
 			"message": "Aucune donnée disponible",
@@ -346,7 +346,7 @@
 		"macAddress": "MAC Adresse",
 		"ipAddress": "IP Adresse",
 		"validity": "Date valide heure",
-		"isActive": "C'est actif",
+		"isActive": "Actif",
 		"zone": "Zone",
 		"language": "français",
 		"edit": "Éditer",
@@ -354,9 +354,9 @@
 		"cancel": "Annuler",
 		"status": "Statut",
 		"publicKey": "Clé publique",
-		"update": "mettre à jour",
-		"signPublicKey": "Signer la clé publique",
-		"keyboard-tooltip": "Cliquez pour le clavier virtuel (français)",
+		"update": "Mettre à jour",
+		"signPublicKey": "Clé publique de Signature",
+		"keyboard-tooltip": "Clavier virtuel info bull(français)",
 		"errorMessages": {
 			"title": "Erreur",
 			"message": "Aucune donnée disponible",
@@ -509,7 +509,7 @@
 		"id": "ID d'enregistrement",
 		"status": "Statut",
 		"viewMore": "Afficher plus",
-		"viewLess": "Voir moins",
+		"viewLess": "Afficher moins",
 		"errorMessages": {
 			"title": "Erreur",
 			"message": "RID introuvable",
@@ -634,7 +634,7 @@
 				" Impossible de reprendre le traitement et de supprimer de la balise de la liste privilégiée"
 			],
 			"error-title": "Erreur",
-			"btnTxt": "Fait",
+			"btnTxt": "OK",
 			"yesBtnTxt": "Confirmer",
 			"noBtnTxt": "Annuler",
 			"confirmation-message": [
@@ -674,7 +674,7 @@
 				" Impossible de reprendre depuis le début et de supprimer de la balise de la liste préférée"
 			],
 			"error-title": "Erreur",
-			"btnTxt": "Fait",
+			"btnTxt": "OK",
 			"yesBtnTxt": "Confirmer",
 			"noBtnTxt": "Annuler",
 			"confirmation-message": [
@@ -694,7 +694,7 @@
 				" N'a pas pu être arrêté"
 			],
 			"error-title": "Erreur",
-			"btnTxt": "Fait",
+			"btnTxt": "OK",
 			"yesBtnTxt": "Confirmer",
 			"noBtnTxt": "Annuler",
 			"confirmation-message": [
@@ -714,7 +714,7 @@
 				" ne peut pas être supprimé"
 			],
 			"error-title": "Erreur",
-			"btnTxt": "Fait",
+			"btnTxt": "OK",
 			"yesBtnTxt": "Confirmer",
 			"noBtnTxt": "Annuler",
 			"confirmation-message": [
@@ -932,7 +932,7 @@
 		"footerButtons": {
 			"resetTxt": "Réinitialiser",
 			"cancelTxt": "Annuler",
-			"applyTxt": "Appliquer"
+			"applyTxt": "Soumettre"
 		}
 	},
 	"isActive": {
@@ -944,7 +944,7 @@
 		"subtitleenrollment": "Détails de l'inscription",
 		"subtitlelocation": "Emplacement",
 		"searchbtn": "Chercher",
-		"clearbtn": "Dégager"
+		"clearbtn": "Effacer"
 	},
 	"generatecsr": {
 		"title": "Générer la RSE",
@@ -959,9 +959,9 @@
 		"button": "produire"
 	},
 	"generatemasterkey": {
-		"title": "Générer le passe-partout",
-		"applicationId": "ID d'application",
-		"referenceId": "Pièce d'identité",
+		"title": "Générer la clé maître",
+		"applicationId": "Numéro de la demande",
+		"referenceId": "Numéro de refrence",
 		"commonName": "Nom commun",
 		"organization": "Organisation",
 		"organizationUnit": "Unité d'organisation",
@@ -970,29 +970,29 @@
 		"country": "Pays",
 		"force": "Obliger",
 		"objectType": "Type d'objet",
-		"button": "produire"
+		"button": "Générer"
 	},
 	"getcertificate": {
 		"title": "Obtenir un certificat",
-		"applicationId": "ID d'application",
-		"referenceId": "Pièce d'identité",
+		"applicationId": "Numéro de la demande",
+		"referenceId": "Numéro de refrence",
 		"button": "Obtenir un certificat"
 	},
 	"uploadcertificate": {
 		"title": "Télécharger le certificat",
-		"applicationId": "ID d'application",
-		"referenceId": "Pièce d'identité",
+		"applicationId": "Numéro de la demande",
+		"referenceId": "Numéro de refrence",
 		"chooseFile": "Choisir le fichier",
-		"uploadYourFile": "Téléchargez votre fichier",
-		"button": "produire"
+		"uploadYourFile": "Téléversez votre fichier",
+		"button": "Soumettre"
 	},
 	"uploadotherdomaincertificate": {
 		"title": "Télécharger un autre certificat de domaine",
-		"applicationId": "ID d'application",
-		"referenceId": "Pièce d'identité",
+		"applicationId": "Numéro de la demande",
+		"referenceId": "Numéro de refrence",
 		"chooseFile": "Choisir le fichier",
-		"uploadYourFile": "Téléchargez votre fichier",
-		"button": "produire"
+		"uploadYourFile": "Téléversez votre fichier",
+		"button": "Soumettre"
 	},
 	"genericerror": {
 		"fieldValidation": "Ce champ est requis",
@@ -1007,7 +1007,7 @@
 		"mappingMessage": " Mappé avec succès"
 	},
 	"genericbutton": {
-		"save": "sauver"
+		"save": "Enregistrer"
 	},
 	"headermessage": {
 		"vesion": "Version de l'interface utilisateur d'administration",
