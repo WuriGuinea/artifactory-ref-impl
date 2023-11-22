@@ -5,7 +5,7 @@
       "buttonName": {
         "eng": "Activate",
         "ara": "تنشيط",
-        "fra": "déclencher",
+        "fra": "Activer",
         "hin": "सक्रिय",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
         "tam": "செயல்படுத்த"
@@ -20,7 +20,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "désactiver",
+        "fra": "Désactiver",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
         "tam": "செயலிழக்க"
@@ -35,7 +35,7 @@
       "buttonName": {
         "eng": "Decommission",
         "ara": "وقف التشغيل",
-        "fra": "mettre hors service",
+        "fra": "Mettre hors service",
         "hin": "डीकमिशन",
         "kan": "ಡಿಕೊಮಿಷನ್",
         "tam": "நீக்கம்"
@@ -50,7 +50,7 @@
       "buttonName": {
         "eng": "Edit",
         "ara": "تصحيح",
-        "fra": "modifier",
+        "fra": "Modifier",
         "hin": "संपादित करें",
         "kan": "ತಿದ್ದು",
         "tam": "தொகு"
@@ -65,7 +65,7 @@
       "buttonName": {
         "eng": "Create Machine",
         "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
+        "fra": "Ajouter Machine",
         "hin": "मशीन बनाएं",
         "kan": "ಯಂತ್ರವನ್ನು ರಚಿಸಿ",
         "tam": "இயந்திரத்தை உருவாக்கவும்"
@@ -78,7 +78,7 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி" },
+      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "Filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி" },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -216,7 +216,7 @@
       "filterlabel": {
         "eng": "Status",
         "ara": "حاله",
-        "fra": "statut",
+        "fra": "Statut",
         "hin": "स्थिति",
         "kan": "ಸ್ಥಿತಿ",
         "tam": "நிலை"
