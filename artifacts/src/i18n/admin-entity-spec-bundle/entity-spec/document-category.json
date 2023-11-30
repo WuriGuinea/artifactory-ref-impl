@@ -4,7 +4,7 @@
     "buttonName": {
       "eng": "Activate",
       "ara": "تنشيط",
-      "fra": "déclencher",
+      "fra": "Activer",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
       "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
@@ -19,7 +19,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "désactiver",
+        "fra": "Désactiver",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
@@ -34,7 +34,7 @@
       "buttonName": {
         "eng": "Edit",
         "ara": "تصحيح",
-        "fra": "modifier",
+        "fra": "Modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
         "kan": "ತಿದ್ದು"
@@ -49,7 +49,7 @@
       "buttonName": {
         "eng": "Create",
         "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
+        "fra": "Ajouter",
         "tam": "உருவாக்கு",
         "hin": "बनाएं",
         "kan": "ರಚಿಸಿ"
@@ -64,7 +64,7 @@
     {
       "buttonName": {
         "eng": "Filter",
-        "fra": "filtre",
+        "fra": "Filtrer",
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
@@ -148,7 +148,7 @@
       "label": {
         "eng": "Name",
         "ara": "اسم",
-        "fra": "prénom",
+        "fra": "Prénom",
         "tam": "பெயர்",
         "hin": "नाम",
         "kan": "ಹೆಸರು"
@@ -167,7 +167,7 @@
       "label": {
         "eng": "Description",
         "ara": "وصف",
-        "fra": "description",
+        "fra": "Description",
         "tam": "விளக்கம்",
         "hin": "विवरण",
         "kan": "ವಿವರಣೆ"
@@ -204,7 +204,7 @@
       "label": {
         "eng": "Updated By",
         "ara": "تم التحديث بواسطة",
-        "fra": "Mise à jour par",
+        "fra": "Mis à jour par",
         "tam": "புதுப்பிக்கப்பட்டது",
         "hin": "द्वारा अपडेट",
         "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ"
@@ -256,7 +256,7 @@
       "label": {
         "eng": "Status",
         "ara": "نشط",
-        "fra": "c'est actif",
+        "fra": "Statut",
         "tam": "நிலை",
         "hin": "स्थिति",
         "kan": "ಸ್ಥಿತಿ"
@@ -296,7 +296,7 @@
     "filterlabel": {
       "eng": "Name",
       "ara": "اسم",
-      "fra": "prénom",
+      "fra": "Prénom",
       "tam": "பெயர்",
       "hin": "नाम",
       "kan": "ಹೆಸರು"
