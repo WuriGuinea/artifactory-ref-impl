@@ -5,7 +5,7 @@
       "buttonName": {
         "eng": "Activate",
         "ara": "تنشيط",
-        "fra": "déclencher",
+        "fra": "Activer",
         "hin": "सक्रिय ",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ  ",
         "tam": "செயல்படுத்த "
@@ -21,7 +21,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "désactiver",
+        "fra": "Désactiver",
         "hin": "निष्क्रिय करें  ",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ   ",
         "tam": "செயலிழக்க  "
@@ -37,7 +37,7 @@
       "buttonName": {
         "eng": "Edit",
         "ara": "تصحيح",
-        "fra": "modifier",
+        "fra": "Modifier",
         "hin": "संपादित करें ",
         "kan": "ತಿದ್ದು  ",
         "tam": "தொகு   "
@@ -52,7 +52,7 @@
       "buttonName": {
         "eng": "Create",
         "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
+        "fra": "Ajouter",
         "hin": "सर्जन करना  ",
         "kan": "ರಚಿಸಿ  ",
         "tam": "உருவாக்கு    "
@@ -102,7 +102,7 @@
       "label": {
         "eng": "Name",
         "ara": "اسم",
-        "fra": "prénom",
+        "fra": "Prénom",
         "hin": "नाम    ",
         "kan": "ಹೆಸರು  ",
         "tam": "பெயர்  "
@@ -119,7 +119,7 @@
       "name": "titleDescription",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Description", "ara": "وصف", "fra": "description",
+      "label": { "eng": "Description", "ara": "وصف", "fra": "Description",
         "hin": "विवरण ",
         "kan": "ವಿವರಣೆ   ",
         "tam": "விளக்கம்  " },
@@ -154,7 +154,7 @@
       "label": {
         "eng": "Updated By",
         "ara": "تم التحديث بواسطة",
-        "fra": "Mise à jour par",
+        "fra": "Mis à jour par",
         "hin": "द्वारा अपडेट   ",
         "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ   ",
         "tam": "புதுப்பிக்கப்பட்டது   "
