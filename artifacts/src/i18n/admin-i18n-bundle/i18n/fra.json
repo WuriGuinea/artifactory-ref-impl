@@ -6,7 +6,7 @@
 		"item2": {
 			"title": "Ressources",
 			"subItem1": "Centre",
-			"subItem2": "Dispositifs",
+			"subItem2": "Périphériques",
 			"subItem3": "Machines",
 			"subItem4": "Mappage zone <-> utilisateur",
 			"subItem5": "Mappage centre  <-> utilisateur"
@@ -28,10 +28,10 @@
 		"item7": {
 			"title": "Gestionnaire de clés",
 			"subItem2": "Générer la clé principale",
-			"subItem1": "GénérerCSR",
+			"subItem1": "Générer CSR",
 			"subItem3": "Obtenir un certificat",
-			"subItem4": "Télécharger le certificat",
-			"subItem5": "Télécharger un autre certificat de domaine"
+			"subItem4": "Téléverser le certificat",
+			"subItem5": "Téléverser un autre certificat de domaine"
 		}
 	},
 	"dashboard": {
