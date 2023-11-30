@@ -5,7 +5,7 @@
       "buttonName": {
         "eng": "Activate",
         "ara": "تنشيط",
-        "fra": "déclencher",
+        "fra": "Activer",
         "tam": "செயல்படுத்த",
         "hin": "सक्रिय",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
@@ -20,7 +20,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "désactiver",
+        "fra": "Désactiver",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
@@ -35,7 +35,7 @@
       "buttonName": {
         "eng": "Edit",
         "ara": "تصحيح",
-        "fra": "modifier",
+        "fra": "Modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
         "kan": "ತಿದ್ದು"
@@ -50,7 +50,7 @@
       "buttonName": {
         "eng": "Create",
         "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
+        "fra": "Ajouter",
         "tam": "உருவாக்கு",
         "hin": "बनाएं",
         "kan": "ರಚಿಸಿ"
@@ -96,7 +96,7 @@
       "name": "name",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Name", "ara": "اسم", "fra": "prénom","tam": "பெயர்",
+      "label": { "eng": "Name", "ara": "اسم", "fra": "Prénom","tam": "பெயர்",
         "hin": "नाम",
         "kan": "ಹೆಸರು"},
       "sortOrder": "",
@@ -110,7 +110,7 @@
       "name": "description",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Description", "ara": "وصف", "fra": "description","tam": "விளக்கம்",
+      "label": { "eng": "Description", "ara": "وصف", "fra": "Description","tam": "விளக்கம்",
         "hin": "विवरण",
         "kan": "ವಿವರಣೆ" },
       "sortOrder": "",
