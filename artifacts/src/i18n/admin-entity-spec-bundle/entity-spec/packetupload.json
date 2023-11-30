@@ -5,7 +5,7 @@
       "buttonName": {
         "eng": "Upload Packet",
         "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
+        "fra": "Téléverser Paquet",
         "hin": "पैकेट अपलोड करें  ",
         "kan": "ಪ್ಯಾಕೆಟ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ  ",
         "tam": "பாக்கெட்டை பதிவேற்றுக  "
@@ -22,7 +22,7 @@
     {
       "name": "transcationId",
       "showInListView": "true",
-      "label": { "eng": "Transcation ID", "ara": "مركز ", "fra": "Centre" ,
+      "label": { "eng": "Transcation ID", "ara": "مركز ", "fra": "No Transaction" ,
         "hin": "पैकेट अपलोड करें  ",
         "kan": "ವಹಿವಾಟು ID  ",
         "tam": "பரிவர்த்தனை ஐடி"},
@@ -34,7 +34,7 @@
     {
       "name": "status",
       "showInListView": "",
-      "label": {"eng": "Status", "ara": "الأجهزة", "fra": "Dispositifs",
+      "label": {"eng": "Status", "ara": "الأجهزة", "fra": "Statut",
         "hin": "स्थिति   ",
         "kan": "ಸ್ಥಿತಿ   ",
         "tam": "நிலை "},
@@ -46,7 +46,7 @@
     {
       "name": "count",
       "showInListView": "",
-      "label": {"eng": "Count","ara": "المستخدمين","fra": "Utilisateur",
+      "label": {"eng": "Count","ara": "المستخدمين","fra": "Nombre",
         "hin": "गिनती   ",
         "kan": "ಎಣಿಕೆ  ",
         "tam": "எண்ணிக்கை "},
@@ -58,7 +58,7 @@
     {
       "name": "uploadedBy",
       "showInListView": "",
-      "label": {"eng": "Uploaded By", "ara": "آلات", "fra": "Machines",
+      "label": {"eng": "Uploaded By", "ara": "آلات", "fra": "Téléversé par",
         "hin": "द्वारा डाली गई  ",
         "kan": "ಇವರಿಂದ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ   ",
         "tam": "பதிவேற்றியது  "},
@@ -70,7 +70,7 @@
     {
       "name": "timeStamp",
       "showInListView": "",
-      "label": {"eng": "Date Time", "ara": "هاتف مُتَكَون", "fra": "Téléphone Contact",
+      "label": {"eng": "Date Time", "ara": "هاتف مُتَكَون", "fra": "Date & Heure",
         "hin": "दिनांक और समय ",
         "kan": "ದಿನಾಂಕ ಸಮಯ  ",
         "tam": "தேதி நேரம்  "},
