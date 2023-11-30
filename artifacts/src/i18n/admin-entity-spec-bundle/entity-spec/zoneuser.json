@@ -5,7 +5,7 @@
       "buttonName": {
         "eng": "Remap",
         "ara": "إعادة رسم خريطة",
-        "fra": "remapper",
+        "fra": "Re-mapper",
         "hin": "सरीमैप ",
         "kan": "ರೀಮ್ಯಾಪ್",
         "tam": "மறுவடிவமைப்பு "
@@ -35,7 +35,7 @@
       "buttonName": {
         "eng": "Activate",
         "ara": "تنشيط",
-        "fra": "déclencher",
+        "fra": "Activer",
         "hin": "सक्रिय",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
         "tam": "செயல்படுத்த"
@@ -50,7 +50,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "désactiver",
+        "fra": "Désactiver",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
         "tam": "செயலிழக்க"
@@ -118,7 +118,7 @@
       "label": {
         "eng": "Zone Name",
         "ara": "نوع المركز",
-        "fra": "Type de centre",
+        "fra": "Nom de la zone",
         "hin": "जोन कोड",
         "kan": "ವಲಯ ಕೋಡ್ ",
         "tam": "மண்டல குறியீடு"
@@ -135,7 +135,7 @@
       "label": {
         "eng": "CreatedBy",
         "ara": "الشخص المسؤول",
-        "fra": "Personne-ressource",
+        "fra": "Créé par",
         "hin": "के द्वारा बनाई गई ",
         "kan": "ರಚಿಸಿದವರು",
         "tam": "உருவாக்கப்பட்டது  "
@@ -164,7 +164,7 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": { "eng": "Status", "ara": "حاله", "fra": "Statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
