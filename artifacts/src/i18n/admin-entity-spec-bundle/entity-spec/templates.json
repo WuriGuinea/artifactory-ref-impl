@@ -5,7 +5,7 @@
       "buttonName": {
         "eng": "Activate",
         "ara": "تنشيط",
-        "fra": "déclencher",
+        "fra": "Déclencher",
         "hin": "सक्रिय ",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ  ",
         "tam": "செயல்படுத்த "
@@ -20,7 +20,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "désactiver",
+        "fra": "Désactiver",
         "hin": "निष्क्रिय करें  ",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ   ",
         "tam": "செயலிழக்க  "
@@ -35,7 +35,7 @@
       "buttonName": {
         "eng": "Edit",
         "ara": "تصحيح",
-        "fra": "modifier",
+        "fra": "Modifier",
         "hin": "संपादित करें ",
         "kan": "ತಿದ್ದು  ",
         "tam": "தொகு   "
@@ -50,7 +50,7 @@
       "buttonName": {
         "eng": "Create",
         "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
+        "fra": "Ajouter",
         "hin": "सर्जन करना  ",
         "kan": "ರಚಿಸಿ  ",
         "tam": "உருவாக்கு    "
@@ -160,7 +160,7 @@
       "label": {
         "eng": "Model",
         "ara": "نموذج",
-        "fra": "forme",
+        "fra": "Modèle",
         "hin": "नमूना ",
         "kan": "ಮಾದರಿ  ",
         "tam": "மாதிரி "
@@ -179,7 +179,7 @@
       "label": {
         "eng": "Scenario",
         "ara": "السيناريو",
-        "fra": "scénario",
+        "fra": "Scénario",
         "hin": "परिदृश्य ",
         "kan": "ಸನ್ನಿವೇಶ   ",
         "tam": "காட்சி "
@@ -217,7 +217,7 @@
       "label": {
         "eng": "Template",
         "ara": "قالب",
-        "fra": "format",
+        "fra": "Format",
         "hin": "टेम्पलेट ",
         "kan": "ಟೆಂಪ್ಲೇಟು  ",
         "tam": "வார்ப்புரு "
@@ -291,7 +291,7 @@
       "label": {
         "eng": "Updated By",
         "ara": "تم التحديث بواسطة",
-        "fra": "Mise à jour par",
+        "fra": "Mis à jour par",
         "hin": "द्वारा अपडेट   ",
         "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ   ",
         "tam": "புதுப்பிக்கப்பட்டது   "
@@ -342,7 +342,7 @@
       "label": {
         "eng": "Created Time",
         "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
+        "fra": "Temps de création",
         "hin": "बनाया गया समय  ",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ   ",
         "tam": "நேரம் உருவாக்கப்பட்டது  "
