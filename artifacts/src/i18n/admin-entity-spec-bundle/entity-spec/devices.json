@@ -4,7 +4,7 @@
     "buttonName": {
       "eng": "Activate",
       "ara": "تنشيط",
-      "fra": "Déclencher",
+      "fra": "Activer",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
       "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
@@ -19,7 +19,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "Déclencher",
+        "fra": "Activer",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
