@@ -4,7 +4,7 @@
     "buttonName": {
       "eng": "Activate",
       "ara": "تنشيط",
-      "fra": "déclencher",
+      "fra": "Déclencher",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
       "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
@@ -19,7 +19,7 @@
       "buttonName": {
         "eng": "Deactivate",
         "ara": "الغاء تنشيط",
-        "fra": "désactiver",
+        "fra": "Déclencher",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
@@ -34,7 +34,7 @@
       "buttonName": {
         "eng": "Decommission",
         "ara": "وقف التشغيل",
-        "fra": "mettre hors service",
+        "fra": "Mettre hors service",
         "tam": "நீக்கம்",
         "hin": "डीकमिशन",
         "kan": "ಡಿಕೊಮಿಷನ್"
@@ -49,7 +49,7 @@
       "buttonName": {
         "eng": "Edit",
         "ara": "تصحيح",
-        "fra": "modifier",
+        "fra": "Modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
         "kan": "ತಿದ್ದು"
@@ -64,7 +64,7 @@
       "buttonName": {
         "eng": "Create Device",
         "ara": "إإنشاء الجهاز",
-        "fra": "Créer un appareil",
+        "fra": "Ajouter",
         "tam": "சாதனத்தை உருவாக்கவும்",
         "hin": "डिवाइस बनाएं",
         "kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ"
@@ -80,7 +80,7 @@
       "buttonName": {
         "eng": "Filter",
         "ara": "تصفيه",
-        "fra": "filtre",
+        "fra": "Filtrer",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
         "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
@@ -101,7 +101,7 @@
     "label": {
       "eng": "Device Name",
       "ara": "اسم الجهاز",
-      "fra": "Nom de la Device",
+      "fra": "Nom du périphérique",
       "tam": "சாதனத்தின் பெயர்",
       "hin": "डिवाइस का नाम",
       "kan": "ಸಾಧನದ ಹೆಸರು"
@@ -149,7 +149,7 @@
       "label": {
         "eng": "Serial Number",
         "ara": "الرقم التسلسلي",
-        "fra": "numéro",
+        "fra": "Numéro de série",
         "tam": "வரிசை எண்",
         "hin": "क्रमिक संख्या",
         "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ"
@@ -181,7 +181,7 @@
       "label": {
         "eng": "Created Time",
         "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
+        "fra": "Temps de création",
         "tam": "நேரம் உருவாக்கப்பட்டது",
         "hin": "बनाया गया समय",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ"
@@ -218,7 +218,7 @@
     "filterlabel": {
       "eng": "Device Name",
       "ara": "اسم الجهاز",
-      "fra": "Nom de l'appareil",
+      "fra": "Nom du périphérique",
       "tam": "பெயர்",
       "hin": "नाम",
       "kan": "ಹೆಸರು"
