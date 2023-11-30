@@ -230,8 +230,8 @@
 		"title": "Erreur"
 	},
 	"devices": {
-		"title": "Dispositifs",
-		"header": "Dispositif",
+		"title": "Périphériques",
+		"header": "Périphériques",
 		"name": "Nom de l'appareil",
 		"serialNumber": "Numéro de série",
 		"macAddress": "MAC Adresse",
@@ -940,7 +940,8 @@
 		"InActive": "INACTIVE"
 	},
 	"lostRID": {
-		"titleTxt": "Récupérer le RID perdu",
+		"title": "Récupérer RID perdu",
+		"titleTxt": "Récupérer Numéro d'enregistrement (RID) perdu",
 		"subtitleenrollment": "Détails de l'inscription",
 		"subtitlelocation": "Emplacement",
 		"searchbtn": "Chercher",
