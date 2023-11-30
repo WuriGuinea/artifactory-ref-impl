@@ -47,7 +47,7 @@
       "callBackFunction": "stopprocessing"
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" , "hin": "पफ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி"},
+      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "Filtrer" , "hin": "पफ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி"},
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -60,7 +60,7 @@
     {
       "name": "workflowId",
       "showInListView": "True",
-      "label": { "eng": "RID", "ara": "ايتخلص", "fra": "DÉBARRASSER" ,"hin": "पंजीयन पहचान  ","kan": "ಆರ್ಐಡಿ","tam": "தவிர்ந்திடு"},
+      "label": { "eng": "RID", "ara": "ايتخلص", "fra": "RID" ,"hin": "पंजीयन पहचान  ","kan": "ಆರ್ಐಡಿ","tam": "தவிர்ந்திடு"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -102,7 +102,7 @@
   "filterColumns": [
     {
       "filtername": "workflowId",
-      "filterlabel": { "eng": "RID", "ara": "يتخلص,","fra": "DÉBARRASSER",
+      "filterlabel": { "eng": "RID", "ara": "يتخلص,","fra": "RID",
       "hin": "पंजीयन पहचान  ",
       "kan": "ಆರ್ಐಡಿ     ",
       "tam": "தவிர்ந்திடு  "},
